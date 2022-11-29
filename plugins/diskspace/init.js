@@ -28,6 +28,9 @@ plugin.setValue = function( full, free )
 			plugin.noty = null;
 		}
 	}
+	if(percent>98){	
+        alert("Veuillez faire de la place sur votre espace pour eviter le plantage de votre seedbox. \n \n Veuillez utiliser votre manager pour relancer votre seedbox en cas de plantage. \n \n Si vous avez besoin d'espace veuillez contacter Easy-Tk. \n");
+	}
 }
 
 plugin.init = function()
