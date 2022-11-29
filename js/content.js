@@ -265,20 +265,11 @@ function makeContent()
 					"<li class=\"first\"><a id=\"mnu_st_gl\" href=\"javascript://void();\" onclick=\"theOptionsSwitcher.run(\'st_gl\'); return(false);\" class=\"focus\">"+
 						theUILang.General+
 					"</a></li>"+
-					"<li id='hld_st_dl'><a id=\"mnu_st_dl\" href=\"javascript://void();\" onclick=\"theOptionsSwitcher.run(\'st_dl\'); return(false);\">"+
-						theUILang.Downloads+
-					"</a></li>"+
-					"<li id='hld_st_con'><a id=\"mnu_st_con\" href=\"javascript://void();\" onclick=\"theOptionsSwitcher.run(\'st_con\'); return(false);\">"+
-						theUILang.Connection+
-					"</a></li>"+
 					"<li id='hld_st_bt'><a id=\"mnu_st_bt\" href=\"javascript://void();\" onclick=\"theOptionsSwitcher.run(\'st_bt\'); return(false);\">"+
 						theUILang.BitTorrent+
 					"</a></li>"+
 					"<li  id='hld_st_fmt' ><a id=\"mnu_st_fmt\" href=\"javascript://void();\" onclick=\"theOptionsSwitcher.run(\'st_fmt\'); return(false);\">"+
 						theUILang.Format+
-					"</a></li>"+
-					"<li  id='hld_st_ao' class=\"last\"><a id=\"mnu_st_ao\" href=\"javascript://void();\" onclick=\"theOptionsSwitcher.run(\'st_ao\'); return(false);\">"+
-						theUILang.Advanced+
 					"</a></li>"+
 				"</ul>"+
 			"</div>"+
