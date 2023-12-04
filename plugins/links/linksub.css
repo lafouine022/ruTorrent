@@ -1,0 +1,21 @@
+div#t div#linksubsonic {
+  background: transparent url('./images/linksubsonic.png') no-repeat 0px center;
+  background-size: 26px 26px; /* Définir la taille de l'image de fond */
+  width: 26px; /* Ajuster la largeur de l'élément en fonction de la taille de l'image */
+  height: 26px; /* Ajuster la hauteur de l'élément en fonction de la taille de l'image */
+  margin-top: 2px;
+  opacity: 0.6; /* Opacité initiale */
+}
+div#t div#linksubboot {
+  background: transparent url('./images/linksubboot.png') no-repeat 0px center;
+  background-size: 26px 26px; /* Définir la taille de l'image de fond */
+  width: 26px; /* Ajuster la largeur de l'élément en fonction de la taille de l'image */
+  height: 26px; /* Ajuster la hauteur de l'élément en fonction de la taille de l'image */
+  margin-top: 2px;
+  opacity: 0.6; /* Opacité initiale */
+}
+
+div#t div#linksubsonic:hover,
+div#t div#linksubboot:hover {
+  opacity: 1; /* Retire l'opacité au survol */
+}

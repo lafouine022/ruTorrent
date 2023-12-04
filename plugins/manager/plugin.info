@@ -1,0 +1,6 @@
+plugin.description: Manager by Easy-tk
+plugin.author: Easy-tk
+plugin.version: 1.0
+rtorrent.remote: error
+rtorrent.external.error: php,pgrep,find
+plugin.dependencies: _task
