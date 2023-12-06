@@ -31,6 +31,10 @@ if (theWebUI.theme) {
   } if (theWebUI.theme == 'MaterialDesign'){
     document.documentElement.setAttribute('data-theme', 'dark');
     document.cookie = "theme=dark; path=/"; // Définir un cookie pour le thème sombre
+  } if (theWebUI.theme == 'Blue'){
+    document.cookie = "theme=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/"; // Supprimer le cookie theme clair
+  } if (theWebUI.theme == 'Excel'){
+    document.cookie = "theme=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/"; // Supprimer le cookie theme clair
   }
   }else {
    document.cookie = "theme=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/"; // Supprimer le cookie s'il existe
