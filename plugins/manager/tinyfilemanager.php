@@ -3611,7 +3611,7 @@ function fm_show_nav_path($path)
                     <?php else: ?>
                         <?php if (!FM_READONLY): ?>
                             <li class="nav-item">
-                                <a title="<?php echo lng('Settings') ?>" class="dropdown-item nav-link" href="?p=<?php echo urlencode(FM_PATH) ?>&amp;settings=1"><i class="fa fa-cog" aria-hidden="true"></i> <?php echo lng('Settings') ?></a>
+                                <a title="<?php //echo  lng('Settings') ?>" class="dropdown-item nav-link" href="?p=<?php //echo urlencode(FM_PATH) ?>&amp;settings=1"><?php //echo<i class="fa fa-cog" aria-hidden="true"></i> ?> <?php //echo lng('Settings') ?></a>
                             </li>
 							<li class="nav-item">
                                 <a title="Full size" class="dropdown-item nav-link" href="?p=<?php echo urlencode(FM_PATH) ?>" target="_blank"><i class="fa fa-expand" aria-hidden="true"></i> </a>
