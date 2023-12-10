@@ -1,5 +1,9 @@
 <?php
-$ServeurName = $_SERVER['SERVER_NAME']; //nom du serveur
+if ($_SERVER['SERVER_NAME'] = '_'){
+$ServeurName = $_SERVER['SERVER_ADDR'];	// pas de nom ont affiche l'ip
+}else{
+$ServeurName = $_SERVER['SERVER_NAME']; // nom du serveur	
+}
 $ServeurIp = $_SERVER['HTTP_HOST']; //Ip du serveur
 $UserName = $_SERVER['PHP_AUTH_USER']; //username
 $Pass = $_SERVER['PHP_AUTH_PW'];  //mot de passe
