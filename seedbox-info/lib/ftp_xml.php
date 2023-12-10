@@ -1,5 +1,5 @@
 <?php
-if ($_SERVER['SERVER_NAME'] = '_'){
+if ($_SERVER['SERVER_NAME'] === '_'){
 $ServeurName = $_SERVER['SERVER_ADDR'];	// pas de nom ont affiche l'ip
 }else{
 $ServeurName = $_SERVER['SERVER_NAME']; // nom du serveur	
