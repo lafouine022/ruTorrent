@@ -1,5 +1,5 @@
 // Configuration
-var personalTitle  = "Easy-Tk - ruTorrent v";
+var personalTitle  = "Easy-tk - ruTorrent v";
 var versionRutorrent = "yes"; // yes or no
 //
 
