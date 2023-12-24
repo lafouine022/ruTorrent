@@ -11,14 +11,14 @@ $Pass = $_SERVER['PHP_AUTH_PW'];  //mot de passe
 header('Content-Disposition: attachment; filename="Filezilla-FTP.xml"');
 header('Content-type: "text/xml"; charset="utf8"');	
 $xml = '<?xml version="1.0" encoding="UTF-8"?>'; 
-   $xml .= '<FileZilla3><FileZilla3><Settings><Setting name="Minimum TLS Version">0</Setting></Settings><Servers><Server>';
+   $xml .= '<FileZilla3><Settings><Setting name="Minimum TLS Version">0</Setting></Settings><Servers><Server>';
    $xml .= '<Host>';
    $xml .= ''.$ServeurName.'';
    $xml .= '</Host>';
    $xml .= '<Port>';
    $xml .= '3339';
    $xml .= '</Port>';
-    $xml .= '<Protocol>';
+   $xml .= '<Protocol>';
    $xml .= '0';
    $xml .= '</Protocol>';
    $xml .= '<Type>';
