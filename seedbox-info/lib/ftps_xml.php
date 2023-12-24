@@ -19,7 +19,7 @@ $xml = '<?xml version="1.0" encoding="UTF-8"?>';
    $xml .= '3339';
    $xml .= '</Port>';
    $xml .= '<Protocol>';
-   $xml .= '0';
+   $xml .= '4';
    $xml .= '</Protocol>';
    $xml .= '<Type>';
    $xml .= '1';
