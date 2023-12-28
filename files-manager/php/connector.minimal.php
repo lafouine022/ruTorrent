@@ -141,7 +141,7 @@ function access($attr, $path, $data, $volume, $isDir, $relpath) {
 		:  null;                                 // else elFinder decide it itself
 }
 
-shell_exec('sudo chmod -R 777 /home/'.$_SERVER['PHP_AUTH_USER'].'');  // remet les droit pour supprimer les fichier
+shell_exec('sudo chmod -R 777 /home/'.$_SERVER['PHP_AUTH_USER'].'/torrents');  // remet les droit pour supprimer les fichier
 
 // Documentation for connector options:
 // https://github.com/Studio-42/elFinder/wiki/Connector-configuration-options
