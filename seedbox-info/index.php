@@ -156,13 +156,13 @@ $modal = '';
           </li>
           <li id="header_inbox_bar" class="dropdown">
             <a href="https://easy-tk.biz/submitticket.php?step=2&deptid=1" title="Support">
-              <i class="fa fa-envelope-o"></i>
+              <i class="fa fa-comments-o"></i>
               <span class="badge bg-theme"></span>
               </a>
           </li>
           <li id="header_notification_bar" class="dropdown">
             <a href="https://easy-tk.biz/contact.php" title="Contact">
-              <i class="fa fa-comments-o"></i>
+              <i class="fa fa-envelope-o"></i>
               <span class="badge bg-warning"></span>
               </a>
           </li>
@@ -200,20 +200,20 @@ $modal = '';
           </li>
 		  <li class="sub-menu">
              <a href="files.php" title="Files Manager">
-              <i class="fa fa-folder-o"></i>
+              <i class="fa fa-folder"></i>
               <span>Files Manager</span>
               </a>
           </li>
           <li>
             <a href="https://easy-tk.biz/submitticket.php?step=2&deptid=1">
-              <i class="fa fa-envelope"></i>
+              <i class="fa fa-comments"></i>
               <span>Support </span>
               <span class="label label-theme pull-right mail-info"></span>
               </a>
           </li>
           <li class="sub-menu">
             <a href="https://easy-tk.biz/contact.php">
-              <i class="fa fa-comments-o"></i>
+              <i class="fa fa-envelope"></i>
               <span>Contact</span>
               </a>
           </li>
