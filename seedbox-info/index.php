@@ -75,7 +75,7 @@ if($pd2 > 98){
                 <div class="modal-body">
                 <p>Espace disque: '.$pd2.'% utilisé Soit '.$pd3.' GB / '.$dt.' GB</p>
 				<p>Vous pouvez supprimer vos fichiers avec votre Files Manager ou par FTP</p>
-				<p><small>Un espace disque trop remplis, provoquer des erreurs et coupe votre seedbox.</small></p>
+				<p><small>Un espace disque trop remplis, provoque des erreurs et coupe votre seedbox.</small></p>
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-info" data-dismiss="modal">Compris!</button>
