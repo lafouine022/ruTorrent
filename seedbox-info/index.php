@@ -405,9 +405,10 @@ $modal = '';
                 </div>
               </div>
 			  <!-- Bouton redemarrer -->
-			  <button type="button" class="btn btn-danger btn-lg btn-block"><a href="reboot.php"><i class="fa fa-cogs"></i> Redémarrer ma Seedbox</a></button>
+			  <div class="row">
+			  <a href="reboot.php"><button class="btn btn-danger btn-lg btn-block"><i class="fa fa-cogs"></i> Redémarrer ma Seedbox</button></a>
 			  <!-- FILEMANAGER -->
-			 <div class="row"> </div>
+			  </div>
             <div class="border-head">
               <h3>Files Manager</h3>
             </div>		  
@@ -434,7 +435,7 @@ $modal = '';
                 </p>
               </div>
             </div>
-              <button type="button" class="btn btn-danger btn-lg btn-block"><a href="reboot.php"><i class="fa fa-cogs"></i> Redémarrer Seedbox</a></button>
+              <a href="reboot.php" class="btn btn-danger btn-lg btn-block"><i class="fa fa-cogs"></i> Redémarrer Seedbox</a>
             </div>
 			 <!-- serveur ONLINE SECTION -->
             <h4 class="centered mt"></h4>
