@@ -1,6 +1,6 @@
 <?php
 if (!isset($_SERVER['PHP_AUTH_USER'])) {
-    header('WWW-Authenticate: Basic realm="Reboot Rutorrrent"');
+    header('WWW-Authenticate: Basic realm="Reboot Rutorrent"');
     header('HTTP/1.0 401 Unauthorized');
     echo 'Merci de vous authentifié';
     exit;
